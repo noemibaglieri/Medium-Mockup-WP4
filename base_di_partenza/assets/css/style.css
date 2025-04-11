@@ -176,8 +176,10 @@ main {
 }
 
 .more-articles {
+  margin: auto;
   display: flex;
   justify-content: center;
+  align-content: center;
   width: 60%;
   margin-bottom: 3rem;
 }
