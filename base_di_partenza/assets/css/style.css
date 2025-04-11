@@ -14,9 +14,12 @@ h1 {
 }
 
 header {
+  width: 100%;
   display: flex;
   justify-content: center;
   border-bottom: 0.12rem solid #000;
+  position: fixed;
+  z-index: 1;
 }
 
 #navigation {
@@ -27,15 +30,17 @@ header {
 }
 
 .hero-section {
+  padding-top: 8rem;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 28.5rem;
+  min-height: 38.5rem;
   border-bottom: 0.12rem solid #000;
 }
 
 #m-pic {
+  padding-top: 8rem;
   position: absolute;
   right: 0;
   top: 0;
@@ -131,7 +136,7 @@ main {
   font-weight: 800;
   font-size: 1.5rem;
   align-self: flex-start;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
   width: 20px;
 }
 
@@ -239,11 +244,12 @@ span {
 aside {
   display: flex;
   flex-direction: column;
-
+  position: sticky;
+  top: 10rem;
   margin-top: 3rem;
   margin-left: 9rem;
   max-width: 30%;
-  height: 20rem;
+  height: 100%;
 }
 
 aside h2 {
