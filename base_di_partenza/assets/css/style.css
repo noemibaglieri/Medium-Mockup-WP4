@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+h1 {
+  font-family: Spectral, serif;
+  font-size: 8rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.12rem solid #000;
+}
+
+#navigation {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.hero-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 28.5rem;
+  border-bottom: 0.12rem solid #000;
+}
+
+#m-pic {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#hero-content {
+  width: 60%;
+}
+
+#hero-content p {
+  margin-top: 1rem;
+  font-size: 2rem;
+  width: 39rem;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  font-size: 1.2rem;
+  vertical-align: middle;
+  padding: 10px;
+  margin: auto;
+}
+
+li:not(:last-child) {
+  margin: auto;
+}
+
+.primary-colour {
+  background-color: #ffc017;
+}
+
+.black-btn {
+  font-size: 1rem;
+  border-radius: 50px;
+  border: 0;
+  padding: 1rem 1.5rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.hero-btn {
+  margin-top: 3rem;
+  padding: 0.6rem 3rem;
+}
