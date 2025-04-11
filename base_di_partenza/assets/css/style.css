@@ -289,3 +289,7 @@ hr {
   gap: 1.2rem;
   margin-top: 2rem;
 }
+
+#yellowToWhite {
+  transition: 0.5s;
+}
