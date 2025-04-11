@@ -293,3 +293,7 @@ hr {
 #yellowToWhite {
   transition: 0.5s;
 }
+
+#greenBtn {
+  transition: 0.5s;
+}
